@@ -1,0 +1,20 @@
+table{
+    font: 16px Tahoma;
+}
+table, td, th{
+    border: 1px solid black;
+    }
+td, th{
+    padding: 5px 20px 5px 5px;
+}
+table > thead{
+    font-size: 20px;
+}
+
+#name{
+    font-weight: bold;
+}
+
+table > tfoot{
+    text-align: right;
+}

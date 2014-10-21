@@ -1,0 +1,10 @@
+table{
+    font: 50px Tahoma;
+
+}
+table, td{
+    border: 1px solid black;
+}
+td{
+    padding: 10px 10px 10px 10px;
+}

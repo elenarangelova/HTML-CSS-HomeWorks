@@ -1,0 +1,91 @@
+body{
+    background: #00923e;
+}
+div{
+    border-radius: 25px 25px 25px 25px;
+    border: 1px solid #000000;
+    width: 61%;
+    margin: auto;
+    overflow: hidden;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    }
+td{
+    border: 1px solid #000000;
+    padding: 1px;
+    height: 30px;
+
+}
+table tr#main{
+
+    font: 16px/1.6 Arial;
+    font-weight: bold;
+    background-color: #F8C711;
+    border-left: 1px solid black;
+
+}
+
+.PlaceABet{
+    text-align: center;
+    colspan: 2;
+}
+tr.whiteTable{
+    background: white;
+}
+.greyTable{
+    background: #C8C8C8;
+}
+.country1{
+   padding: 0.6em;
+    text-align: right;
+    width: 16%;
+}
+
+.country2{
+    padding: 0.6em;
+}
+.result{
+    text-align: center;
+    width: 8%;
+}
+label#count1 {
+    display: inline-block;
+    margin-left: 0;
+
+}
+label#count2 {
+    display: inline-block;
+    margin-left: 0;
+  }
+select {
+    background-color: #DCDCDC;
+    color: #FF0000;
+}
+
+select.countGreen{
+    background: white;
+    color: green;
+}
+.buttonRed {
+    display: block;
+    background: red;
+    color: #FFF;
+    margin: 1em;
+    width: 35px;
+    height: 35px;
+    border-radius: 35px;
+    font-size: 10px;
+}
+
+.buttonGreen {
+    display: block;
+    background: green;
+    color: #FFF;
+    border-radius: 35px;
+    width: 35px;
+    height: 35px;
+    margin: 1em;
+    font-size: 10px;
+}
