@@ -1,0 +1,131 @@
+#container{
+
+    background: #234465;
+    font: 16px Calibri;
+    color: white;
+    border-color: inherit;
+    width: 85%;
+    height: 110px;
+    padding-top: 20px;
+}
+
+#logo{
+    float: left;
+}
+
+#first-row{
+    padding-left: 750px;
+    height: 30%;
+    width: 400px;
+}
+#notifications {
+
+    font-weight: bold;
+    float: left;
+    width: 50px;
+}
+
+#notifications span{
+    color: white;
+    text-decoration: none;
+    vertical-align: top;
+}
+#menu nav  ul ul {
+    background: #234465;
+
+    border-radius: 5px;
+    text-align: left;
+    text-transform: none;
+    position: absolute;
+    width: 250px;
+    height: 20px;
+    margin-left: -40px;
+    display: none; }
+
+#menu nav ul li:hover > ul { display: block; }
+#menu nav ul:after { display: block; content: ''; clear: both; }
+
+#menu ul ul li {
+    float: none;
+    border-bottom: 1px solid #575f6a;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+#menu ul ul li:last-child {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+#menu ul ul li a {
+    padding: 8px 0px 8px 10px;
+   background: #234465;
+
+}
+#menu ul ul li a:hover {
+    background: #FF9C00;
+}
+#user{
+    float:left;
+    padding-right: 20px;
+}
+.dropdown-toggle{
+    padding: 5px 7px 5px 7px;
+    font-weight: bold;
+
+    color: white;
+    text-decoration: none;
+}
+.caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 4px solid;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+
+#search{
+
+    float: left;
+
+}
+button{
+    background-image: url(icon17.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-left: 1px solid grey;
+    height: 25px;
+    width: 25px;
+
+}
+input[type=text]{
+    height: 14px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+    padding: 5px 0 5px 5px;
+    float: left;
+
+    margin-right: 0;
+    width: 161px;
+}
+
+    nav ul li{
+        list-style: none outside;
+
+        float: left;
+        padding: 0 15px 0 15px;
+    }
+
+    nav ul li a{
+        display: block;
+        text-decoration: none;
+        color: white;
+    }
+
+#img{
+    padding: 10px 10px 10px 10px;
+}
